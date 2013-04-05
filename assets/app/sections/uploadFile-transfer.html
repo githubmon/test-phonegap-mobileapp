@@ -1,0 +1,38 @@
+<!-- <!doctype html> -->
+<html>
+	<head>   	   
+		<!-- 	    Main Stylesheet -->
+	    <link rel="stylesheet" href="../../lungojs/lungo-1.2.min.css">
+	    <link rel="stylesheet" href="../../lungojs/lungo.theme.default.css">
+		<!-- 	    App Stylesheet -->
+	    <link rel="stylesheet" href="../../stylesheets/personal.css">	
+
+		<!-- PhoneGap / Cordova libraries -->
+	    <script type="text/javascript" charset="utf-8" src="../../cordovajs/cordova-2.3.0.js"></script>
+	    <!--  Custom library -->
+	    <script type="text/javascript" charset="utf-8" src="../../cordovajs/customCordova.js"></script>
+	    <script type="text/javascript" charset="utf-8" src="../../cordovajs/customFileTransfer.js"></script>
+	</head>
+	
+	<body class="app" onload="uploadFileToServer()">
+		  <section id="uploadFile">
+		    <header data-title=""></header>
+		    <article id="serviceResponse" class="list scrollable">
+		      <div class="container indented" align="center">        
+		        <ul class="form">
+		          <li class="anchor" id="message" >Result... </li>          
+		          <li>            
+		            <a href="main-menu.html" class="button big"> Back to Main Menu </a>
+		          </li>         
+		        </ul>
+		      </div>
+		    </article>
+		  </section>
+	</body>
+	
+	<!-- LungoJS (Production mode) -->
+	<script src="../../lungojs/lungo-1.2.packed.js"></script>
+	<!-- LungoJS - Sandbox App -->
+	<script src="../../app/app.js"></script>
+	
+</html>

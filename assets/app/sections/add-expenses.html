@@ -1,0 +1,143 @@
+<section id="addexpenses">
+  <header data-back="left" data-title="Add Expenses"></header>
+  <article id="formExpenses" class="list scrollable">
+    <div class="container">
+        <div align="center"><a href="#" onClick="capturePhoto()"><br/><br/><img id="largeImage" src="assets/images/takepicture.gif"></img></a><br/><br/></div>
+        <div class="indented">
+          <ul class="form">
+            <li class="anchor" data-icon="items mini">Select your project:</li>
+            <li>
+              <label class="select">
+  		      <select id="tktProject" name="projectID">
+                  <option value="UNICABBE" selected>CPW - BBE</option>
+                	<option value="SKYDATAFIX">Sky Data Fix</option>
+                </select>  
+  			</label>
+            </li>
+            <li class="anchor" data-icon="calendar mini">Ticket Date:</li>
+            <li>
+              <table class="wide-table">
+              <tr>
+              <td>Day</td>
+              <td>Month</td>
+              <td>Year</td>
+              </tr>
+              <tr>
+              <td>
+                  <label class="select">
+                    <select id="tktDay" class="custom">
+                      <option value="01" selected>01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                    </select>
+                  </label>
+              </td>
+              <td>
+              <label class="select">
+                    <select id="tktMonth" class="custom">
+                      <option value="01" selected>01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                    </select>
+              </label>
+              </td>
+              <td>
+              <label class="select">
+                    <select id="tktYear" class="custom">
+                      <option value="2012" selected>2012</option>
+                      <option value="2013">2013</option>
+                      <option value="2014">2014</option>
+                    </select>
+              </label>
+              </td>
+              </tr>
+              </table>
+            </li>
+            <li class="anchor" data-icon="basket mini">Total:</li>
+            <li>
+              <table class="wide-table">
+              <tr>
+                <td width="43%">
+                  <input type="number" id="tktTotal" placeholder="0,00"/>
+                </td>
+                <td width="6%">&nbsp;</td>
+                <td  width="43%">
+                  <label class="select">
+                    <select id="tktCurrency" class="custom">
+                      <option value="EURO" selected>&euro;</option>
+                      <option value="POUND">&pound;</option>
+                    </select>
+                  </label>
+                 </td>
+              </tr>
+              </table>
+            </li>
+            <li class="anchor" data-icon="tag mini">Description:</li>
+            <li>
+              <label class="select">
+                <select id="tktDesc" class="custom">
+                  <option value="taxi" selected>Taxi</option>
+                  <option value="dinner">Dinner</option>
+                  <option value="flight">Flight</option>
+                  <option value="hotel">Hotel</option>
+                </select>
+              </label>
+            </li>
+            <li>
+              <table class="wide-table">
+              <tr>
+                <td width="43%">
+                  <a href="#" id="btnSaveExpense" data-target="section" class="button big"> Save </a>
+                </td>
+                <td width="6%">&nbsp;</td>
+<!--                 <td width="43%"> -->
+<!--                   <a href="app/sections/uploadFile-transfer.html" class="button big"> Upload File </a> -->
+<!--                 </td> -->
+                <td width="6%">&nbsp;</td>
+                <td width="43%">
+                   <a href="#back" data-target="section" class="button big"> Cancel </a>
+                </td>
+              </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </article>
+</section>
